@@ -1,0 +1,89 @@
+{
+	"author" : "Michael Vlasov",
+	"commands" : [
+		{
+			"script" : "script.js",
+			"name" : "Silent Export",
+			"handler" : "onSilentExport",
+			"identifier" : "silentExport",
+			"shortcut": "ctrl shift e"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Attach Style",
+			"handler" : "onAttachStyle",
+			"identifier" : "attachStyle"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Detach Style",
+			"handler" : "onDetachStyle",
+			"identifier" : "detachStyle"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Show Styles",
+			"handler" : "onShowStyles",
+			"identifier" : "showStyles"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Apply Styles",
+			"handler" : "onApplyStyles",
+			"identifier" : "applyStyles",
+			"shortcut": "ctrl shift a"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Paste Borders",
+			"handler" : "onPasteBorders",
+			"identifier" : "pasteBorders"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Paste Fills",
+			"handler" : "onPasteFills",
+			"identifier" : "pasteFills"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Paste Shadows",
+			"handler" : "onPasteShadows",
+			"identifier" : "pasteShadows"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Paste Shapes",
+			"handler" : "onPasteShapes",
+			"identifier" : "pasteShapes"
+		},
+		{
+			"script" : "script.js",
+			"name" : "Copy Style & Shapes",
+			"handler" : "onCopyStyleAndShapes",
+			"identifier" : "copyStyleAndShapes"
+		}
+	],
+	"menu" : {
+		"title" : "Somino",
+		"items" : [
+			"silentExport",
+			"-",
+			"attachStyle",
+			"detachStyle",
+			"showStyles",
+			"applyStyles",
+			"-",
+			"copyStyleAndShapes",
+			"pasteBorders",
+			"pasteFills",
+			"pasteShadows",
+			"pasteShapes"
+		]
+	},
+	"identifier" : "com.melsomino.sketch.somino",
+	"version" : "1.0",
+	"description" : "Silent Export, Multiple Styles",
+	"authorEmail" : "melsomio@gmail.com",
+	"name" : "Somino"
+}
